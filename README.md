@@ -24,7 +24,7 @@ public class UnitTestClass : FakeItEasyDependencyFaker<TheTestedClass>
   }
 }
 ```
-In the example, we have TheTestedClass as the Sut. We also mocks the call to `GetUser`. We aquire the faked instance with the method `Fake<T>()`.
+In the example, we have TheTestedClass as the Sut. We also mocks the call to `GetUser`. We aquire the faked instance with the method `Fake<T>()`. Lastly the Sut property is the instance of the class we are testing, injected with faked (or registered) dependencies.
 
 ## Author
 DependencyFaker is written by Johnny Sjöö johnny.sjoo@gmail.com.
@@ -37,3 +37,5 @@ This library is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 See http://www.gnu.org/licenses/.
+
+#unittest #dependencyinjection #fakeiteasy 
