@@ -6,6 +6,7 @@
 	<RootNamespace>Vanilla.DependencyFaker</RootNamespace>
 	<ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<RepositoryUrl>https://github.com/johnnysjoo2/DependencyFaker</RepositoryUrl>  
   </PropertyGroup>
 
   <ItemGroup>
