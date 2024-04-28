@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <AssemblyName>Vanilla.DependencyFaker</AssemblyName>
-	<RootNamespace>Vanilla.DependencyFaker</RootNamespace>
+    <AssemblyName>Vanilla.DependencyFaker.Sdk</AssemblyName>
+	<RootNamespace>Vanilla.DependencyFaker.Sdk</RootNamespace>
 	<ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<LangVersion>latest</LangVersion>
